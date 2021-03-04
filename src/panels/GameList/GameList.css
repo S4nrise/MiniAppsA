@@ -12,7 +12,16 @@
 
 .Card__in .card-image {
   width: 100%;
-  height: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.CardGrid--m .Card__in .card-image {
+  width: 100%;
+  height: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

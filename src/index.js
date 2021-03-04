@@ -2,7 +2,7 @@ import 'core-js/features/map';
 import 'core-js/features/set';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AppRoot, ConfigProvider, AdaptivityProvider } from '@vkontakte/vkui';
+import {ConfigProvider, AdaptivityProvider, AppRoot} from '@vkontakte/vkui';
 import bridge from '@vkontakte/vk-bridge';
 import App from './App';
 
@@ -19,6 +19,8 @@ ReactDOM.render(
     </ConfigProvider>,
     document.getElementById('root')
 );
+/*
 if (process.env.NODE_ENV === 'development') {
     import('./eruda').then(({ default: eruda }) => {}); //runtime download
 }
+*/

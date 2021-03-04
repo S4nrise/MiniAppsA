@@ -6,7 +6,7 @@ import '@vkontakte/vkui/dist/vkui.css';
 
 //Панели
 import Home from './panels/Home/';
-import Persik from './panels/Persik';
+import GameList from './panels/GameList';
 import Testview from './panels/TestView';
 import Intro from './panels/Intro';
 
@@ -38,7 +38,7 @@ const App = () => {
     return (
         <View activePanel={activePanel} popout={popout}>
             <Home id="home" fetchedUser={fetchedUser} go={go} />
-            <Persik id="persik" go={go} />
+            <GameList id="gamelist" go={go} />
             <Testview id="testview" go={go} />
             <Intro id="intro" go={go} />
         </View>

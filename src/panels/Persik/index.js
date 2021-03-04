@@ -1,1 +1,0 @@
-export { Persik as default } from './Persik';

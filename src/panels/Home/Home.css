@@ -21,3 +21,11 @@
 .hardwares .FormField:not(:last-child) {
     margin-bottom: 10px;
 }
+
+.hardwares{
+    padding: 0 2%;
+}
+
+.WButton{
+    padding: 0 2%;
+}

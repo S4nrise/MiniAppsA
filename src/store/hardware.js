@@ -4,15 +4,15 @@ export default [
         options: [
             {
                 name: 'Nvidia RTX 3090',
-                value: 10,
+                value: 100,
             },
             {
                 name: 'Radeon RX 5800TX',
-                value: 7,
+                value: 95,
             },
             {
                 name: 'Nvidia RTX 2080Ti',
-                value: 8,
+                value: 80,
             },
         ],
     },
@@ -21,15 +21,15 @@ export default [
         options: [
             {
                 name: 'AMD Ryzen 7 5000',
-                value: 10,
+                value: 100,
             },
             {
                 name: 'Intel Core i7 11700',
-                value: 10,
+                value: 100,
             },
             {
                 name: 'Intel Core i5 9300',
-                value: 5,
+                value: 65,
             },
         ],
     },
@@ -38,19 +38,19 @@ export default [
         options: [
             {
                 name: '32',
-                value: 10,
+                value: 100,
             },
             {
                 name: '16',
-                value: 8,
+                value: 70,
             },
             {
                 name: '8',
-                value: 5,
+                value: 50,
             },
             {
                 name: '4',
-                value: 2,
+                value: 20,
             },
         ],
     },
@@ -59,19 +59,19 @@ export default [
         options: [
             {
                 name: 'SSD (SATA)',
-                value: 6,
+                value: 30,
             },
             {
                 name: 'SSD (NVMe)',
-                value: 10,
+                value: 50,
             },
             {
                 name: 'HDD (7200)',
-                value: 5,
+                value: 25,
             },
             {
                 name: 'HDD (5400)',
-                value: 2,
+                value: 15,
             },
         ],
     },

@@ -13,7 +13,10 @@ import {
     CardGrid,
     CardScroll,
     View,
+    Search,
     ContentCard,
+    Separator,
+    PanelHeaderBack,
 } from '@vkontakte/vkui';
 
 import './Testview.css';
@@ -28,8 +31,9 @@ export const Testview = (props) => (
                     {osName === IOS ? <Icon28ChevronBack /> : <Icon24Back />}
                 </PanelHeaderButton>
             }
-        >
-            CardScroll
+            >
+            <Search />
+            
         </PanelHeader>
 
         <Group description="Внутри Group">

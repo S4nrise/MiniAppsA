@@ -10,11 +10,6 @@ import FixedLayout from "@vkontakte/vkui/dist/components/FixedLayout/FixedLayout
 import "./Intro.css";
 import VGameIcon from "../../img/VGameIcon.png";
 
-const ROUTERS = {
-	HOME: 'home',
-	INTRO: 'intro',
-}
-
 export const Intro = ({ id, go }) => (
   <Panel id={id} centered={true}>
     <PanelHeader>Твой ПК</PanelHeader>

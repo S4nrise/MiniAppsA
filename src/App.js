@@ -9,6 +9,12 @@ import Home from './panels/Home/';
 import GameList from './panels/GameList';
 import Testview from './panels/TestView';
 import Intro from './panels/Intro';
+import Cyberpunk2077 from './panels/GameList/GameInfo'; 
+
+const ROUTERS = {
+	HOME: 'home',
+	INTRO: 'intro',
+}
 
 const App = () => {
     const [activePanel, setActivePanel] = useState('intro');
@@ -41,6 +47,7 @@ const App = () => {
             <GameList id="gamelist" go={go} />
             <Testview id="testview" go={go} />
             <Intro id="intro" go={go} />
+            <Cyberpunk2077 id="cyberpunk2077" go={go} />
         </View>
     );
 };

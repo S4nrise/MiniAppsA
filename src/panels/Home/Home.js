@@ -120,15 +120,6 @@ export const Home = ({ id, go, fetchedUser }) => {
           >
             Постмотреть игры
           </Button>
-          <Button
-            size="l"
-            onClick={go}
-            data-to="testview"
-            stretched
-            mode="secondary"
-          >
-            Test
-          </Button>
         </Div>
       </Group>
 
@@ -150,6 +141,16 @@ export const Home = ({ id, go, fetchedUser }) => {
     </Panel>
   );
 };
+
+/**Тест панель<Button
+            size="l"
+            onClick={go}
+            data-to="testview"
+            stretched
+            mode="secondary"
+          >
+            Test
+          </Button> */
 
 Home.propTypes = {
   id: PropTypes.string.isRequired,

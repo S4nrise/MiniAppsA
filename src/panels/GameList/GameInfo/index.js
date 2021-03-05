@@ -1,0 +1,1 @@
+export { Cyberpunk2077 as default } from './Cyberpunk2077';

@@ -22,6 +22,9 @@ import AS_Valhalla from "../../img/Game_Banners/Assassins_Creed_Valhalla_cover.p
 import It_Takes_Two from "../../img/Game_Banners/It_Takes_Two.jpg";
 import Little_Nightmares_II from "../../img/Game_Banners/Little_Nightmares_II.jpg";
 import The_Witcher_3_Wild_Hunt from "../../img/Game_Banners/The_Witcher_3_Wild_Hunt.jpg";
+import Grand_Theft_Auto_V from "../../img/Game_Banners/Grand_Theft_Auto_V.jpg";
+import Rocket_League from "../../img/Game_Banners/Rocket_League.jpg";
+import Horizon_Zero_Dawn from "../../img/Game_Banners/Horizon_Zero_Dawn.jpg";
 
 const osName = platform();
 
@@ -80,13 +83,22 @@ export const GameList = (props) => {
             />
           </Card>
           <Card>
-            
+          <div
+              className="card-image"
+              style={{ backgroundImage: `url(${Grand_Theft_Auto_V})` }}
+            />
           </Card>
           <Card>
-            
+          <div
+              className="card-image"
+              style={{ backgroundImage: `url(${Rocket_League})` }}
+            />
           </Card>
           <Card>
-            
+          <div
+              className="card-image"
+              style={{ backgroundImage: `url(${Horizon_Zero_Dawn})` }}
+            />
           </Card>
         </CardGrid>
       </Group>

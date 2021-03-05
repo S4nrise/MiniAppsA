@@ -44,13 +44,14 @@ export const Home = ({ id, go, fetchedUser }) => {
 
   //Параметры банера
   const promoBannerProps = {
-    title: "Заголовок",
-    domain: "vk.com",
-    trackingLink: "https://vk.com",
+    title: "Google",
+    domain: "google.com",
+    trackingLink: "https://google.com",
     ctaText: "Перейти",
     advertisingLabel: "Реклама",
     iconLink:
-      "https://sun9-7.userapi.com/c846420/v846420985/1526c3/ISX7VF8NjZk.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1004px-Google_%22G%22_Logo.svg.png",
+    /*"https://sun9-7.userapi.com/c846420/v846420985/1526c3/ISX7VF8NjZk.jpg",*/
     description: "Описание рекламы",
     ageRestrictions: "14+",
     statistics: [
@@ -108,7 +109,7 @@ export const Home = ({ id, go, fetchedUser }) => {
           ))}
         </Group>
       </FormLayout>
-      <Group title="Navigation Example">
+      <Group title="Навигация">
         <Div style={{ display: "flex" }}>
           <Button
             size="l"
@@ -132,11 +133,17 @@ export const Home = ({ id, go, fetchedUser }) => {
       </Group>
 
       <Group>
-      <Button size="l" onClick={go} data-to="intro" stretched mode="secondary">
-        Вступление
-      </Button>
+        <Button
+          size="l"
+          onClick={go}
+          data-to="intro"
+          stretched
+          mode="secondary"
+        >
+          Вступление
+        </Button>
       </Group>
-      
+
       <FixedLayout vertical="bottom">
         <PromoBanner bannerData={promoBannerProps} />
       </FixedLayout>
